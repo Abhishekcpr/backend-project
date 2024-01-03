@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "a complete backend project",
   "main": "index.js",
+  "start" : {
+    "dev" : "nodemon src/index/js"
+  },
   "author": "Abhishek",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
